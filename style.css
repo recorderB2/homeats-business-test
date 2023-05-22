@@ -140,6 +140,11 @@ header {
   width: 100vw;
   height: 60vh;
 }
+/* .main-statement{
+    font-size: 20px;
+    margin: 20px 0;
+    text-align: center;
+} */
 .main-content {
   /* display */
   display: flex;
