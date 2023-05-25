@@ -218,38 +218,40 @@ header {
 }
 /* ------------------------ */
 
-/* -------- blogs -------- */
-.blogs{
+
+
+/* -------- stories -------- */
+.stories{
   display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: red; */
 }
-.blogs-statement {
+.stories-statement {
   text-align: left;
   margin-left: 80px;
 }
-.blogs > img{
+.stories > img{
   width: 45%;
   margin-right: 8%;
 }
-.blog{
+.story{
   width: 65%;
   margin-left: 10%;
 }
-.blog-title{
+.story-title{
   font-size: 24px;
   width: 60%;
   margin-left: 10%;
 }
-.blog-text{
+.story-text{
   font-size: 18px;
   width: 60%;
   margin-left: 10%;
 }
 
 
-.blogs-slider {
+.stories-slider {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -258,7 +260,7 @@ header {
   /* height: 7vh; */
   margin: 20px 30px 20px 0;
 }
-.blogs-slider > i {
+.stories-slider > i {
   cursor: pointer;
   font-size: 25px;
   text-align: center;
@@ -268,7 +270,7 @@ header {
   background-color: rgb(221, 221, 221);
   margin: 8px;
 }
-.blogs-slider > p {
+.stories-slider > p {
   font-size: 18px;
   margin: 12px;
 }
