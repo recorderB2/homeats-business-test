@@ -291,6 +291,10 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.questions > p{
+  margin-left: 180px;
+  /* color:red; */
+}
 .question > p{
   margin-bottom: 15px;
   color: rgb(53, 53, 53);
@@ -302,6 +306,67 @@ header {
 .question-hr{
   width: 100%;
   border: solid 0.5px rgb(192, 192, 192);
+}
+/* ------------------------ */
+
+
+
+/* -------- start -------- */
+.start{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start > img{
+  width: 40%;
+  margin: 8% 0;
+}
+.start-text{
+  width: 45%;
+  /* margin-right: 10%; */
+}
+.start-title{
+  font-size: 32px;
+  /* font-weight: 600; */
+  /* width: 60%; */
+  margin-left: 14%;
+
+}
+.start-text ol li{
+  font-size: 20px;
+  /* width: 60%; */
+  margin-left: 20%;
+  margin-top: 10px;
+  color: rgb(53, 53, 53);
+}
+/* ------------------------ */
+
+
+
+/* -------- works -------- */
+.works{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.work-statement{
+  text-align: left;
+  margin: 0 0 10px 80px;
+}
+.work{
+  margin: 20px 20px 80px 20px;
+  width: 28%;
+}
+.work > img{
+  width: 100%;
+}
+.work-title{
+  font-size: 25px;
+  margin: 10px 0;
+}
+.work-text{
+  font-size: 18px;
+  color: rgb(53, 53, 53);
 }
 /* ------------------------ */
 
