@@ -375,6 +375,10 @@ header {
 
 
 /* -------- footer -------- */
+footer{
+  background-color: black;
+  padding-top: 10px;
+}
 footer > div {
   /* space */
   margin: 25px;
@@ -383,12 +387,14 @@ footer > div {
   font-size: 25px;
   /* space */
   margin: 10px 0;
+  color: white;
 }
 footer > div > a {
   /* display */
   display: block;
   /* space */
   margin: 10px;
+  color: white;
 }
 .footer-app-link {
   /* size */
@@ -399,6 +405,7 @@ footer > div > a {
 .footer-end {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 0px;
 }
 .social-media {
   font-size: 25px;
@@ -408,11 +415,13 @@ footer > div > a {
 .social-media > a {
   /* display */
   display: block;
+  color: white;
   /* space */
   margin: 5px;
 }
 .copy-right {
   font-size: 14px;
+  color: white;
 }
 /* ------------------------ */
 
