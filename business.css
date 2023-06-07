@@ -113,6 +113,9 @@ header {
   /* space */
   margin: 0 5px;
 }
+nav i{
+  color: black;
+}
 .nav-shadow {
   background-color: #0000007c;
   z-index: 2;
